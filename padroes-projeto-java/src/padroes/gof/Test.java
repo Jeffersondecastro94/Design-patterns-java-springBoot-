@@ -1,5 +1,6 @@
 package padroes.gof;
 
+import padroes.gof.facade.Facade;
 import padroes.gof.singleton.SingletonEager;
 import padroes.gof.singleton.SingletonLazy;
 import padroes.gof.singleton.SingletonLazyHolder;
@@ -44,6 +45,11 @@ robo.setComportamento(agressivo);
 robo.mover();
 robo.mover();
 robo.mover();	
+
+//Facade
+
+Facade facade = new Facade();
+facade.migrarCliente("jefferson", "135352672");
 	
 	}
 	
