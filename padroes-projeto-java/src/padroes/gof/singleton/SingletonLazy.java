@@ -1,4 +1,4 @@
-package padroes.gof;
+package padroes.gof.singleton;
 
 /**
  * Singleton "preguiçoso".
